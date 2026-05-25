@@ -1,45 +1,51 @@
-# Cal Sailing Website
+# Cal Sailing Team Website
 
-A React + TypeScript website template for the Cal Sailing student club at UC Berkeley.
+React + TypeScript template styled after [sailing.studentorg.berkeley.edu](https://sailing.studentorg.berkeley.edu/).
 
 ## Quick start
 
 ```bash
-npm install
-npm run dev
+npm.cmd install
+npm.cmd run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to preview locally.
+## Navigation tabs
+
+| Tab | Purpose |
+| --- | ------- |
+| **Home** (click title) | Photo gallery, team about, upcoming events |
+| **Roster** | Team member template |
+| **About** | Extended history & facility info |
+| **News** | Results and announcements |
+| **Recruitment** | Tryouts and joining info |
+| **Donations** | Giving and sponsors |
+| **Contact** | Emails and location |
+| **Merch** | Apparel and orders |
 
 ## Customize content
 
-Edit **`src/data/siteContent.ts`** to update:
+Edit **`src/data/siteContent.ts`** for copy, events, gallery metadata, and each tab’s template sections.
 
-- Club name, tagline, and description
-- Navigation links
-- About section and highlights
-- Event dates, titles, and locations
-- Join steps and contact links
+Add photos to **`public/gallery/`** and wire them up in the gallery component when ready.
 
 ## Project structure
 
 ```
 src/
-  components/     # Header, Hero, About, Events, Join, Footer
-  data/           # Site copy (edit this first)
-  App.tsx         # Page layout
-  index.css       # Cal blue & gold theme
+  components/
+    Header.tsx       # Title + tab navigation
+    HomePage.tsx     # Landing (gallery, about, events)
+    TemplatePage.tsx # Shared layout for tab pages
+    PhotoGallery.tsx
+    Footer.tsx
+  data/siteContent.ts
+  types.ts
 ```
 
 ## Scripts
 
-| Command           | Description              |
-| ----------------- | ------------------------ |
-| `npm run dev`     | Start development server |
-| `npm run build`   | Production build         |
-| `npm run preview` | Preview production build |
-| `npm run lint`    | Run ESLint               |
-
-## Deploy
-
-Build static files with `npm run build`, then deploy the `dist/` folder to GitHub Pages, Netlify, Vercel, or any static host.
+| Command | Description |
+| ------- | ----------- |
+| `npm.cmd run dev` | Development server |
+| `npm.cmd run build` | Production build |
+| `npm.cmd run preview` | Preview production build |
