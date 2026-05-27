@@ -24,9 +24,11 @@ npm.cmd run dev
 
 ## Customize content
 
-Edit **`src/data/siteContent.ts`** for copy, events, gallery metadata, and each tab’s template sections.
+**Edit [`content/site.json`](content/site.json)** for almost all site text (home page, roster, news, About, Recruitment, and other tabs). See **[`content/README.md`](content/README.md)** for a field-by-field guide.
 
-Add photos to **`public/gallery/`** and wire them up in the gallery component when ready.
+Add carousel photos to **`public/gallery/`** and set each slide’s `image` path in `site.json` → `gallery`.
+
+Re-download About / Recruitment banners: `npm run download:heroes`
 
 ## Project structure
 
@@ -38,7 +40,8 @@ src/
     TemplatePage.tsx # Shared layout for tab pages
     PhotoGallery.tsx
     Footer.tsx
-  data/siteContent.ts
+content/site.json   # ← main content file (edit this)
+  data/siteContent.ts  # loads site.json (do not edit for copy)
   types.ts
 ```
 
@@ -49,3 +52,4 @@ src/
 | `npm.cmd run dev` | Development server |
 | `npm.cmd run build` | Production build |
 | `npm.cmd run preview` | Preview production build |
+| `npm.cmd run download:heroes` | Fetch About & Recruitment banner images |

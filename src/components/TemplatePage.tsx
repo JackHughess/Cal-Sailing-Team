@@ -1,8 +1,9 @@
 import { pageTemplates } from '../data/siteContent'
 import type { PageId, TemplateSection } from '../types'
+import { PageHero } from './PageHero'
 
 type TemplatePageProps = {
-  pageId: Exclude<PageId, 'home' | 'roster'>
+  pageId: Exclude<PageId, 'home' | 'roster' | 'news'>
 }
 
 function TemplateSectionContent({ section }: { section: TemplateSection }) {
@@ -25,6 +26,7 @@ function TemplateSectionContent({ section }: { section: TemplateSection }) {
 
 export function TemplatePage({ pageId }: TemplatePageProps) {
   const page = pageTemplates[pageId]
+  const showHero = pageId === 'about' || pageId === 'recruitment'
 
   return (
     <article className="template-page">
@@ -32,6 +34,9 @@ export function TemplatePage({ pageId }: TemplatePageProps) {
         <h2>{page.title}</h2>
         {page.intro ? <p className="template-intro">{page.intro}</p> : null}
       </header>
+
+      {showHero ? <PageHero src={page.heroImage} /> : null}
+
       <div className="template-sections">
         {page.sections.map((section) => (
           <section key={section.heading} className="template-card">

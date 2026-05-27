@@ -195,7 +195,7 @@ main {
 
 /* Home hero — carousel left, about right */
 .home-page {
-  padding-top: 1.75rem;
+  padding-top: 0;
 }
 
 .home-hero {
@@ -209,7 +209,7 @@ main {
   background: #FFFFFF;
   border: none;
   border-radius: var(--radius);
-  padding: 1.5rem;
+  padding: 0 1.5rem 1.5rem;
 }
 
 .home-about-short h2 {
@@ -217,7 +217,7 @@ main {
   font-weight: 700;
   letter-spacing: 0.1em;
   color: var(--cal-blue);
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   text-transform: uppercase;
 }
 
@@ -235,7 +235,8 @@ main {
 /* Photo carousel */
 .photo-carousel {
   width: 100%;
-  padding: 1.5rem;
+  margin-top: 1.25rem;
+  padding: 0 1.5rem 1.5rem;
   background: #FFFFFF;
 }
 
@@ -260,6 +261,13 @@ main {
 .carousel-slide.is-active {
   opacity: 1;
   pointer-events: auto;
+}
+
+.carousel-slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .carousel-placeholder {
@@ -363,9 +371,9 @@ main {
   font-weight: 700;
   letter-spacing: 0.12em;
   color: var(--cal-blue);
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.625rem;
   text-transform: uppercase;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
   border-bottom: 2px solid var(--cal-gold);
 }
 
@@ -396,13 +404,13 @@ main {
 
 /* Template tab pages */
 .template-page {
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 .template-header {
   text-align: center;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0 1.5rem 1.5rem;
   background: transparent;
   border-radius: var(--radius);
 }
@@ -412,7 +420,7 @@ main {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.375rem;
   color: var(--cal-blue);
 }
 
@@ -439,7 +447,7 @@ main {
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.25rem;
   color: var(--cal-blue);
 }
 
@@ -467,9 +475,130 @@ main {
   margin-bottom: 0;
 }
 
+/* Page hero (About, Recruitment, blog posts) */
+.page-hero {
+  margin-bottom: 1.25rem;
+  background: #FFFFFF;
+}
+
+.page-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-hero-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  max-height: 22rem;
+  background: var(--cal-blue-light);
+  color: var(--cal-blue);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* News index */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.news-card {
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.news-card-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.news-card-link:hover .news-card-cta {
+  color: var(--cal-blue-mid);
+}
+
+.news-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  background: var(--cal-blue-light);
+}
+
+.news-card-image--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cal-blue);
+}
+
+.news-card-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.news-card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cal-blue);
+  margin: 0 0 0.25rem;
+}
+
+.news-card-body p {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text);
+  flex: 1;
+}
+
+.news-card-cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cal-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.news-back {
+  margin: 0 0 0.75rem;
+  text-align: left;
+}
+
+.news-back a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--cal-blue);
+  text-decoration: none;
+}
+
+.news-back a:hover {
+  text-decoration: underline;
+}
+
+.news-post-body {
+  margin-top: 0;
+}
+
 /* Roster */
 .roster-page {
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 .roster-sections {
@@ -489,8 +618,8 @@ main {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--cal-blue);
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
+  margin: 0 0 0.625rem;
+  padding-bottom: 0.25rem;
   border-bottom: 2px solid var(--cal-gold);
 }
 
@@ -679,7 +808,7 @@ main {
   }
 
   .home-page {
-    padding-top: 1.25rem;
+    padding-top: 0;
   }
 
   .home-hero {
@@ -688,7 +817,7 @@ main {
   }
 
   .home-about-short {
-    padding: 1.25rem;
+    padding: 0 1.25rem 1.25rem;
   }
 
   .home-about-short h2 {
@@ -711,12 +840,12 @@ main {
   }
 
   .template-page {
-    padding-top: 1.25rem;
+    padding-top: 0;
   }
 
   .template-header {
-    padding: 1.25rem 1rem;
-    margin-bottom: 1.5rem;
+    padding: 0 1rem 1.25rem;
+    margin-bottom: 0.75rem;
   }
 
   .template-header h2 {
@@ -728,7 +857,7 @@ main {
   }
 
   .roster-page {
-    padding-top: 1.25rem;
+    padding-top: 0;
   }
 
   .roster-class-section {
@@ -737,6 +866,14 @@ main {
 
   .roster-grid {
     grid-template-columns: 1fr;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card-body {
+    padding: 1rem 1.15rem 1.25rem;
   }
 
   .site-footer {

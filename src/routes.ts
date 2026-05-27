@@ -19,6 +19,10 @@ export function pageIdFromPath(pathname: string): PageId {
       ? pathname.slice(0, -1)
       : pathname || '/'
 
+  if (normalized === '/news' || normalized.startsWith('/news/')) {
+    return 'news'
+  }
+
   const match = pathEntries.find(([, path]) => path === normalized)
   return match?.[0] ?? 'home'
 }

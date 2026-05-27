@@ -3,6 +3,42 @@ import { galleryImages } from '../data/siteContent'
 
 const ROTATE_MS = 4500
 
+function CarouselSlideImage({
+  src,
+  alt,
+  index,
+}: {
+  src: string
+  alt: string
+  index: number
+}) {
+  const [failed, setFailed] = useState(false)
+  const imageSrc = src.trim()
+
+  if (!imageSrc || failed) {
+    return (
+      <div
+        className={`carousel-placeholder carousel-tone-${(index % 3) + 1}`}
+        role="img"
+        aria-label={alt}
+      >
+        <span>{alt}</span>
+      </div>
+    )
+  }
+
+  return (
+    <img
+      className="carousel-slide-image"
+      src={imageSrc}
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      onError={() => setFailed(true)}
+    />
+  )
+}
+
 export function PhotoGallery() {
   const [activeIndex, setActiveIndex] = useState(0)
 
@@ -20,17 +56,11 @@ export function PhotoGallery() {
       <div className="carousel-viewport">
         {galleryImages.map((image, index) => (
           <figure
-            key={image.id}
+            key={`${image.alt}-${index}`}
             className={`carousel-slide ${index === activeIndex ? 'is-active' : ''}`}
             aria-hidden={index !== activeIndex}
           >
-            <div
-              className={`carousel-placeholder carousel-tone-${(index % 3) + 1}`}
-              role="img"
-              aria-label={image.alt}
-            >
-              <span>{image.alt}</span>
-            </div>
+            <CarouselSlideImage src={image.image} alt={image.alt} index={index} />
           </figure>
         ))}
       </div>
@@ -49,7 +79,7 @@ export function PhotoGallery() {
         <div className="carousel-dots" role="tablist" aria-label="Choose photo">
           {galleryImages.map((image, index) => (
             <button
-              key={image.id}
+              key={`${image.alt}-${index}`}
               type="button"
               role="tab"
               className={index === activeIndex ? 'is-active' : undefined}

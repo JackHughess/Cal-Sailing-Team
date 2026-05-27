@@ -34,5 +34,16 @@ export type TemplateSection = {
 export type PageTemplate = {
   title: string
   intro?: string
+  /** Banner above section content — file in public/, e.g. /about/hero.png */
+  heroImage?: string
   sections: readonly TemplateSection[]
+}
+
+export type NewsArticle = {
+  slug: string
+  heading: string
+  excerpt: string
+  image: string
+  imageAlt: string
+  paragraphs: readonly string[]
 }

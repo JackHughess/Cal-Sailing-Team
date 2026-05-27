@@ -1,4 +1,4 @@
-import { homeAbout, upcomingEvents } from '../data/siteContent'
+import { homeAbout, homeEventsHeading, upcomingEvents } from '../data/siteContent'
 import { PhotoGallery } from './PhotoGallery'
 
 export function HomePage() {
@@ -15,7 +15,7 @@ export function HomePage() {
       </section>
 
       <section className="home-events">
-        <h2>UPCOMING EVENTS</h2>
+        <h2>{homeEventsHeading}</h2>
         <ul>
           {upcomingEvents.map((event) => (
             <li key={event}>{event}</li>

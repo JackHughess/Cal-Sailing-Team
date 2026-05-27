@@ -1,0 +1,532 @@
+{
+  "site": {
+    "name": "Cal Sailing Team",
+    "heading": "CAL SAILING TEAM",
+    "shortName": "Cal Sailing Team"
+  },
+  "nav": [
+    {
+      "id": "roster",
+      "label": "Roster"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "news",
+      "label": "News"
+    },
+    {
+      "id": "recruitment",
+      "label": "Recruitment"
+    },
+    {
+      "id": "donations",
+      "label": "Donations"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    },
+    {
+      "id": "merch",
+      "label": "Merch"
+    }
+  ],
+  "pageTitles": {
+    "home": "Cal Sailing Team | UC Berkeley",
+    "roster": "Roster | Cal Sailing Team",
+    "about": "About | Cal Sailing Team",
+    "news": "News | Cal Sailing Team",
+    "recruitment": "Recruitment | Cal Sailing Team",
+    "donations": "Donations | Cal Sailing Team",
+    "contact": "Contact | Cal Sailing Team",
+    "merch": "Merch | Cal Sailing Team"
+  },
+  "gallery": [
+    {
+      "image": "",
+      "alt": "Team photo 1"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 2"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 3"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 4"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 5"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 6"
+    },
+    {
+      "image": "",
+      "alt": "Team photo 7"
+    }
+  ],
+  "home": {
+    "about": {
+      "heading": "CAL SAILING TEAM",
+      "paragraphs": [
+        "The California Golden Bears Sailing Team is a student-run, competitive racing team from the University of California at Berkeley. The team regularly competes in regattas throughout the San Francisco Bay and on the waters of Southern California and Hawaii.",
+        "The Cal Sailing Team was started in 1922 and is the second oldest club sport at Cal. Our fleet of fifteen FJs is located at Richmond Yacht Club, where we practice three days a week. Only thirty minutes from campus by car, Richmond Yacht Club is an incredible sailing facility with beautiful views of the Bay Area.",
+        "We are continually looking to expand our team’s skills and continue the Corinthian spirit at Cal."
+      ]
+    },
+    "eventsHeading": "UPCOMING EVENTS",
+    "upcomingEvents": [
+      "9/20-21 PCCSC Women’s Singlehandeds",
+      "9/20-21 PCCSC Open Singlehanded Conference Championship",
+      "10/4-5 Richard Sweet Match Race Championship @ SDYC",
+      "10/11-12 UCSD Open @ UCSD",
+      "10/11-12 Frosh Soph @ UCSD",
+      "10/18-19 Stoney Burke Intersectional @ Berkeley",
+      "10/25-26 Womens Fall PCCs @ Stanford",
+      "11/1-2 Kiera Broudy Memorial @ UCSC",
+      "11/15-16 Open Fall Conference Championship @ UCSB",
+      "11/15-16 Fall PCC JV @ UCSB"
+    ]
+  },
+  "socialLinks": [
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/calsailing/"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@calsailing"
+    }
+  ],
+  "roster": {
+    "title": "Roster",
+    "intro": "2026–2027 Cal Sailing Team"
+  },
+  "rosterMembers": [
+    {
+      "id": "gabriel-rousseau",
+      "name": "Gabriel Rousseau",
+      "photo": "/roster/gabriel-rousseau.png",
+      "officerPosition": "Social Chair",
+      "role": "Skipper/Crew",
+      "major": "Political Economy, City & Urban Planning Minor",
+      "hometown": "Los Angeles, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "allison-dana",
+      "name": "Allison Dana",
+      "photo": "",
+      "officerPosition": "Apparel Chair",
+      "role": "Crew",
+      "major": "Electrical Engineering & Computer Science, Creative Writing Minor, BDCI Certificate",
+      "hometown": "Albany, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "nati-grinkrugc",
+      "name": "Nati Grinkrugc",
+      "photo": "",
+      "officerPosition": "",
+      "role": "Skipper",
+      "major": "Physics",
+      "hometown": "Palo Alto, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "paula-castillo-hi-espino",
+      "name": "Paula Castillo Hi Espino",
+      "photo": "/roster/paula-castillo-hi-espino.png",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Molecular and Cell Biology",
+      "hometown": "Mill Valley, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "derek-phan",
+      "name": "Derek Phan",
+      "photo": "/roster/derek-phan.png",
+      "officerPosition": "",
+      "role": "Skipper/Crew",
+      "major": "Molecular and Cell Biology",
+      "hometown": "Granite Bay, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "aliyah-al-khafaji",
+      "name": "Aliyah Al-Khafaji",
+      "photo": "/roster/aliyah-al-khafaji.png",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Environmental Economics & Policy, Data Science",
+      "hometown": "San Diego, CA",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "mahika-behani",
+      "name": "Mahika Behani",
+      "photo": "/roster/mahika-behani.jpg",
+      "officerPosition": "",
+      "role": "Skipper",
+      "major": "Environmental Engineering, Environmental Economics and Policy",
+      "hometown": "Bangalore, India",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "vivian-butler",
+      "name": "Vivian Butler",
+      "photo": "/roster/vivian-butler.png",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Business Administration, Data Science",
+      "hometown": "Austin, TX",
+      "graduatingClass": 2027
+    },
+    {
+      "id": "annika-baumgartner",
+      "name": "Annika Baumgartner",
+      "photo": "/roster/annika-baumgartner.png",
+      "officerPosition": "Recruitment Chair & TIDE Representative",
+      "role": "Crew",
+      "major": "Molecular and Cell Biology, Economics",
+      "hometown": "San Diego, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "carsten-zieger",
+      "name": "Carsten Zieger",
+      "photo": "/roster/carsten-zieger.png",
+      "officerPosition": "Education Chair",
+      "role": "Skipper",
+      "major": "Chemical Engineering",
+      "hometown": "Manhattan Beach, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "amelia-gassner",
+      "name": "Amelia Gassner",
+      "photo": "/roster/amelia-gassner.png",
+      "officerPosition": "Secretary & Gala Co-Chair",
+      "role": "Crew",
+      "major": "Society and Environment, Public Health",
+      "hometown": "Los Angeles, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "celia-clark",
+      "name": "Celia Clark",
+      "photo": "",
+      "officerPosition": "Social Chair & Social Media Chair",
+      "role": "Crew",
+      "major": "Urban Studies, English",
+      "hometown": "San Francisco, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "john-mayfield",
+      "name": "John Mayfield",
+      "photo": "/roster/john-mayfield.png",
+      "officerPosition": "",
+      "role": "Skipper/Crew",
+      "major": "Philosophy",
+      "hometown": "Santa Barbara, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "max-umminger",
+      "name": "Max Umminger",
+      "photo": "/roster/max-umminger.png",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Physics",
+      "hometown": "Oakland, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "nikolas-krause",
+      "name": "Nikolas Krause",
+      "photo": "/roster/nikolas-krause.png",
+      "officerPosition": "",
+      "role": "Skipper/Crew",
+      "major": "Molecular and Cellular Biology",
+      "hometown": "San Jose, CA",
+      "graduatingClass": 2028
+    },
+    {
+      "id": "andre-lintner-calvo",
+      "name": "Andre Lintner-Calvo",
+      "photo": "",
+      "officerPosition": "Treasurer",
+      "role": "Skipper/Crew",
+      "major": "Geophysics",
+      "hometown": "Piedmont, CA",
+      "graduatingClass": 2029
+    },
+    {
+      "id": "selah-dorn",
+      "name": "Selah Dorn",
+      "photo": "/roster/selah-dorn.png",
+      "officerPosition": "Fleetmaster",
+      "role": "Skipper",
+      "major": "Molecular and Cellular Biology",
+      "hometown": "Mountain View, CA",
+      "graduatingClass": 2029
+    },
+    {
+      "id": "jack-hughes",
+      "name": "Jack Hughes",
+      "photo": "/roster/jack-hughes.png",
+      "officerPosition": "",
+      "role": "Skipper/Crew",
+      "major": "Computer Science",
+      "hometown": "Chicago, IL",
+      "graduatingClass": 2029
+    },
+    {
+      "id": "eloise-white",
+      "name": "Eloise White",
+      "photo": "",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Earth & Planetary Science",
+      "hometown": "Brooklyn, NY",
+      "graduatingClass": 2029
+    },
+    {
+      "id": "magnus-grigsby",
+      "name": "Magnus Grigsby",
+      "photo": "/roster/magnus-grigsby.png",
+      "officerPosition": "",
+      "role": "Crew",
+      "major": "Aerospace Engineering",
+      "hometown": "Aptos, CA",
+      "graduatingClass": 2029
+    },
+    {
+      "id": "alvina-lin",
+      "name": "Alvina Lin",
+      "photo": "/roster/alvina-lin.png",
+      "officerPosition": "",
+      "role": "Skipper",
+      "major": "Economics, Legal Studies",
+      "hometown": "Irvine, CA",
+      "graduatingClass": 2029
+    }
+  ],
+  "news": {
+    "title": "News",
+    "introBefore": "Join Our ",
+    "newsletterLinkText": "Newsletter!",
+    "newsletterUrl": "https://forms.gle/upooP63q6MWuuRK17",
+    "articles": [
+      {
+        "slug": "cascadia-cup-october-2025",
+        "heading": "Cascadia Cup, October 2025 — Washington",
+        "excerpt": "As the rest of the team was heading down to San Diego for Frosh-Soph and UCSD Open earlier this month, four of us flew up to Washington for the Cascadia Cup women's regatta...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2025/11/Screenshot-2025-11-17-at-5.58.32-PM-e1763431622501.png",
+        "imageAlt": "Cascadia Cup, October 2025",
+        "paragraphs": [
+          "As the rest of the team was heading down to San Diego for Frosh-Soph and UCSD Open earlier this month, four of us flew up to Washington for the Cascadia Cup women's regatta. When we touched down Friday evening, we were greeted with cold, rainy conditions.",
+          "Despite the weather, the team put in strong performances throughout the weekend and gained valuable fleet-racing experience against top women's teams from the region."
+        ]
+      },
+      {
+        "slug": "frosh-soph-ucsd-open-october-2025",
+        "heading": "Frosh-Soph x UCSD Open, October 2025 — San Diego, CA",
+        "excerpt": "Over the weekend of October 11th and 12th, twenty of our beloved Cal sailors headed down to San Diego for the UCSD Open and Frosh Soph...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-3.07.43%E2%80%AFPM.png",
+        "imageAlt": "Frosh-Soph x UCSD Open, October 2025",
+        "paragraphs": [
+          "Over the weekend of October 11th and 12th, twenty of our beloved Cal sailors headed down to San Diego for the UCSD Open and Frosh Soph. It was many sailors' first time in San Diego — and for some, a first regatta.",
+          "The team brought energy and focus to Mission Bay, building skills in fleet racing and team logistics across two busy days on the water."
+        ]
+      },
+      {
+        "slug": "spring-pccs-2025",
+        "heading": "Cal Hosts Spring PCCs 2025 — Richmond, CA",
+        "excerpt": "We are excited to share that the Cal Sailing Team has been selected to host the Spring 2025 PCCSC Carter Ford Open Fleet race Championships!",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-3.07.43%E2%80%AFPM.png",
+        "imageAlt": "Spring PCCs 2025 at Richmond Yacht Club",
+        "paragraphs": [
+          "We are excited to share that the Cal Sailing Team has been selected to host the Spring 2025 PCCSC Carter Ford Open Fleet race Championships!",
+          "Hosting at Richmond Yacht Club is a tremendous opportunity for our team to welcome conference rivals to the Bay and showcase the program our sailors build every week at practice."
+        ]
+      },
+      {
+        "slug": "stoney-burke-2024",
+        "heading": "Stoney Burke 2024 — Richmond, CA",
+        "excerpt": "Last weekend, the Cal Sailing Team was thrilled to host our home regatta, Stoney Burke, at Safe Harbor Marina Bay Yacht Club...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-11.31.35%E2%80%AFAM-1.png",
+        "imageAlt": "Stoney Burke 2024",
+        "paragraphs": [
+          "Last weekend, the Cal Sailing Team was thrilled to host our home regatta, Stoney Burke, at Safe Harbor Marina Bay Yacht Club, just south of Richmond Yacht Club.",
+          "Teams from across the conference joined us for a full weekend of racing. Thank you to everyone who volunteered, coached, and cheered on the Bears."
+        ]
+      },
+      {
+        "slug": "hewitt-trophy-2024",
+        "heading": "Hewitt Trophy Coed Interconference 2024 — Brunswick, ME",
+        "excerpt": "The Cal Sailing Team started the year off with a bang by jumping on a plane and heading for the East Coast...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-2.43.38%E2%80%AFPM.png",
+        "imageAlt": "Hewitt Trophy 2024",
+        "paragraphs": [
+          "The Cal Sailing Team started the year off with a bang by jumping on a plane and heading for the East Coast. Breaking away from the norm, we took on the challenges of an interconference regatta right off the bat.",
+          "Racing in new conditions against unfamiliar fleets pushed our sailors to adapt quickly and compete at a high level away from home waters."
+        ]
+      },
+      {
+        "slug": "frosh-soph-2024",
+        "heading": "Frosh Soph 2024 — San Diego, CA",
+        "excerpt": "Frosh Soph 2024 was yet another beautiful weekend in San Diego hosted by UCSD at Mission Bay Yacht Club...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-2.47.59%E2%80%AFPM.png",
+        "imageAlt": "Frosh Soph 2024",
+        "paragraphs": [
+          "Frosh Soph 2024 was yet another beautiful weekend in San Diego hosted by UCSD at Mission Bay Yacht Club. The classic mix of competitive and new sailors were more on fire than ever before.",
+          "Chaotic moments on and off the water always ended with great team energy, and our frosh and sophomores left with stronger boathandling and race IQ."
+        ]
+      },
+      {
+        "slug": "top-9-women-pccs-2024",
+        "heading": "Top 9 Invitational / Women PCCs 2024 — Stanford, CA",
+        "excerpt": "On October 26 and 27, Cal Sailing made the 45 minute drive down to Redwood City to compete at the Top 9 Invitational and Women's PCCs hosted by Stanford...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2024/12/Screenshot-2024-12-28-at-3.07.52%E2%80%AFPM.png",
+        "imageAlt": "Top 9 Invitational / Women PCCs 2024",
+        "paragraphs": [
+          "On October 26 and 27, Cal Sailing made the short drive to Redwood City to compete at the Top 9 Invitational and Women's PCCs hosted by Stanford.",
+          "The format differed from most college sailing regattas, with only the top teams invited — a great test for our women's squad against the best in the conference."
+        ]
+      },
+      {
+        "slug": "big-sail-2024",
+        "heading": "Big Sail 2024 — Saint Francis Yacht Club",
+        "excerpt": "The team competed against Stanford in the annual Big Sail...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2025/01/Screenshot-2025-01-10-at-8.47.09-PM-e1736614970753.png",
+        "imageAlt": "Big Sail 2024",
+        "paragraphs": [
+          "The team competed against Stanford in the annual Big Sail at Saint Francis Yacht Club.",
+          "Big Sail is one of the highlights of our rivalry season, bringing alumni, supporters, and current sailors together for match racing on the Bay."
+        ]
+      },
+      {
+        "slug": "gala-2024",
+        "heading": "Gala 2024 — Fort Mason in SF",
+        "excerpt": "The team raised money through a live auction at our annual Cal Sailing gala...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2025/01/Screenshot-2025-01-11-at-11.04.17-AM.png",
+        "imageAlt": "Gala 2024",
+        "paragraphs": [
+          "The team raised money through a live auction at our annual Cal Sailing gala in Fort Mason.",
+          "Thank you to everyone who attended, donated, and helped make the evening a success for our sailors and our program."
+        ]
+      },
+      {
+        "slug": "rainbow-invite-2024",
+        "heading": "Rainbow Invite 2024 — Honolulu, Hawaii",
+        "excerpt": "Over winter break, team members had a taste of Hawaii as they competed at the Rainbow Invite...",
+        "image": "https://sailing.studentorg.berkeley.edu/wp-content/uploads/2025/01/DSCN6382-scaled.jpeg",
+        "imageAlt": "Rainbow Invite 2024",
+        "paragraphs": [
+          "Over winter break, team members had a taste of Hawaii as they competed at the Rainbow Invite.",
+          "Warm water and tradewind sailing made for an unforgettable regatta and a great way to cap the calendar year."
+        ]
+      }
+    ]
+  },
+  "pages": {
+    "about": {
+      "title": "About",
+      "heroImage": "/about/hero.png",
+      "sections": [
+        {
+          "heading": "About Us",
+          "paragraphs": [
+            "The Cal Sailing Team competes in the PCCSC (Pacific Coast College Sailing Conference), which sanctions collegiate racing on the Pacific Coast and is part of the larger ICSA (Intercollegiate Sailing Association). Cal races against schools such as Stanford, USC, University of Hawaii, UC Santa Barbara, and California Maritime Academy. The team is entirely student-run. We sail FJs at Richmond Yacht Club in the San Francisco Bay. Each year, we host our annual Stoney Burke regatta.",
+            "Practices are held Tuesday, Wednesday, and Friday afternoons at Richmond Yacht Club and go from 3pm until dark. Each practice generally follows the practice plan outlined below. The team holds weekly meetings on Mondays at 7pm to discuss team logistics and updates. The team uses Slack as a main form of communication.",
+            "Cal Sailing is open to any UC Berkeley students interested in competitive collegiate sailing. To get involved, email us at calsailing@gmail.com."
+          ]
+        }
+      ]
+    },
+    "recruitment": {
+      "title": "Recruitment",
+      "heroImage": "/recruitment/hero.jpg",
+      "sections": [
+        {
+          "heading": "Recruitment & Joining the Team",
+          "paragraphs": [
+            "We are a competitive racing team, and members are expected to start competing almost immediately. People without prior experience may still join if they can attend at least two practices a week and are dedicated to learning racing. Absolute beginners can start with Cal Adventures or the Cal Sailing Club for introductory lessons.",
+            "Prospective members should reach out to the recruitment chair and email calsailing@gmail.com."
+          ]
+        },
+        {
+          "heading": "FAQ",
+          "bullets": [
+            "Competitions are open to undergraduates. Graduate students may practice with the team if they are not competition-eligible.",
+            "Dues are $310 per semester, covering travel, fleet maintenance, and a $55 collegiate membership to Richmond Yacht Club. Talk to the team if cost is a barrier — we are flexible.",
+            "High school students interested in sailing for Cal should contact calsailing@gmail.com during fall of senior year. We recommend visiting campus and practicing with the team in September or October before applying to Berkeley."
+          ]
+        }
+      ]
+    },
+    "donations": {
+      "title": "Donations",
+      "sections": [
+        {
+          "heading": "Give Today",
+          "body": "Link to Cal Giving, GoFundMe, or your preferred donation platform."
+        },
+        {
+          "heading": "Where Funds Go",
+          "body": "Explain how donations support boats, sails, and travel."
+        },
+        {
+          "heading": "Sponsors",
+          "body": "Recognize local businesses and alumni supporters."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "sections": [
+        {
+          "heading": "General Inquiries",
+          "body": "Add team email — e.g. sailing@berkeley.edu"
+        },
+        {
+          "heading": "Officers",
+          "body": "List President, VP, Treasurer, and Recruitment chair emails."
+        },
+        {
+          "heading": "Location",
+          "body": "Richmond Yacht Club — include address and parking notes."
+        }
+      ]
+    },
+    "merch": {
+      "title": "Merch",
+      "sections": [
+        {
+          "heading": "Current Drop",
+          "body": "Link to an order form or storefront for this season’s gear."
+        },
+        {
+          "heading": "Sizing & Pickup",
+          "body": "Explain how and when orders are distributed."
+        },
+        {
+          "heading": "Past Designs",
+          "body": "Show photos of hoodies, tees, and hats from previous years."
+        }
+      ]
+    }
+  }
+}

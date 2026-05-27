@@ -10,28 +10,19 @@ import {
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { HomePage } from './components/HomePage'
+import { NewsPage } from './components/NewsPage'
+import { NewsPostPage } from './components/NewsPostPage'
 import { RosterPage } from './components/RosterPage'
 import { TemplatePage } from './components/TemplatePage'
+import { pageTitles } from './data/siteContent'
 import { pageIdFromPath } from './routes'
-import type { PageId } from './types'
-
-const PAGE_TITLES: Record<PageId, string> = {
-  home: 'Cal Sailing Team | UC Berkeley',
-  roster: 'Roster | Cal Sailing Team',
-  about: 'About | Cal Sailing Team',
-  news: 'News | Cal Sailing Team',
-  recruitment: 'Recruitment | Cal Sailing Team',
-  donations: 'Donations | Cal Sailing Team',
-  contact: 'Contact | Cal Sailing Team',
-  merch: 'Merch | Cal Sailing Team',
-}
 
 function AppLayout() {
   const location = useLocation()
   const activePage = pageIdFromPath(location.pathname)
 
   useEffect(() => {
-    document.title = PAGE_TITLES[activePage]
+    document.title = pageTitles[activePage]
   }, [activePage])
 
   return (
@@ -54,7 +45,8 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: 'roster', element: <RosterPage /> },
       { path: 'about', element: <TemplatePage pageId="about" /> },
-      { path: 'news', element: <TemplatePage pageId="news" /> },
+      { path: 'news', element: <NewsPage /> },
+      { path: 'news/:slug', element: <NewsPostPage /> },
       { path: 'recruitment', element: <TemplatePage pageId="recruitment" /> },
       { path: 'donations', element: <TemplatePage pageId="donations" /> },
       { path: 'contact', element: <TemplatePage pageId="contact" /> },
