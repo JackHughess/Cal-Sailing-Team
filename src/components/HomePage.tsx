@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import { homeAboutShort, site, upcomingEvents } from '../data/siteContent'
+import { homeAbout, upcomingEvents } from '../data/siteContent'
 import { PhotoGallery } from './PhotoGallery'
 
 export function HomePage() {
@@ -8,11 +7,10 @@ export function HomePage() {
       <section className="home-hero">
         <PhotoGallery />
         <div className="home-about-short">
-          <h2>{site.heading}</h2>
-          <p>{homeAboutShort}</p>
-          <Link to="/about" className="home-about-link">
-            Read full story on About →
-          </Link>
+          <h2>{homeAbout.heading}</h2>
+          {homeAbout.paragraphs.map((paragraph) => (
+            <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+          ))}
         </div>
       </section>
 

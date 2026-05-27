@@ -10,6 +10,7 @@ import {
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { HomePage } from './components/HomePage'
+import { RosterPage } from './components/RosterPage'
 import { TemplatePage } from './components/TemplatePage'
 import { pageIdFromPath } from './routes'
 import type { PageId } from './types'
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { index: true, element: <HomePage /> },
-      { path: 'roster', element: <TemplatePage pageId="roster" /> },
+      { path: 'roster', element: <RosterPage /> },
       { path: 'about', element: <TemplatePage pageId="about" /> },
       { path: 'news', element: <TemplatePage pageId="news" /> },
       { path: 'recruitment', element: <TemplatePage pageId="recruitment" /> },
