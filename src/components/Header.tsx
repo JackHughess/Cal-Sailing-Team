@@ -41,8 +41,8 @@ export function Header({ activePage }: HeaderProps) {
             src="/cal-sailing-flag.png"
             alt=""
             className="site-logo"
-            width={72}
-            height={42}
+            width={127}
+            height={74}
           />
           <span className="site-title">{site.name}</span>
         </Link>
